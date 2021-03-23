@@ -1,0 +1,23 @@
+{
+  "name": "ts-waf-example",
+  "version": "0.1.0",
+  "description": "Example for using ts-waf",
+  "main": "index.js",
+  "scripts": {
+    "serve": "npx webpack serve"
+  },
+  "keywords": [],
+  "author": "Geordi Filiotis",
+  "license": "ISC",
+  "devDependencies": {
+    "source-map-loader": "^2.0.1",
+    "ts-loader": "^8.0.18",
+    "typescript": "^4.2.3",
+    "webpack": "^5.27.2",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "ts-waf": "github:Geordi7/ts-waf#main"
+  }
+}

@@ -1,0 +1,20 @@
+body {
+    background-color: black;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+
+    width: 100vw;
+}
+
+div#root {
+    background-color: white;
+    grid-column: 2;
+    grid-row: 2;
+
+    margin: 2em;
+    border: 1px solid darkslategray;
+    border-radius: 1.5em;
+    padding: 2em;
+    z-index: 10;
+}
